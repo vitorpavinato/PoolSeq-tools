@@ -60,11 +60,17 @@ Tools for demographic inference ($N_e$)
 ### **Tools for the analyses of single-point genomic data**
 
 For the calculation of summary statistics
+- [Poolfstat](https://rdrr.io/cran/poolfstat/) 
+It was the first implementation of unbiased $F_{ST}$ estimator of Weir & Cockerham $\theta$ for Pool-seq data. Recently it grew and incorporated many cool modern population genetics statistics for admixture analysis (Patterson's 'F2', 'F3', 'F3*', 'F4' and D parameters). It also has functions for the fitting, building and visualization of admixture graphs.
+
 - Popoolation
 - Popoolation2
 - [Npstat](https://github.com/lucaferretti/npstat)
 - [grenedalf](https://github.com/lczech/grenedalf)
 - [PIXY](https://github.com/ksamuk/pixy)
+
+For admixture graphs
+- Poolfstat
 
 For demographic model inference 
 - [Moments](https://moments.readthedocs.io/en/latest/introduction.html) based on the SFS
